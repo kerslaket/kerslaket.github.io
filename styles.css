@@ -1,0 +1,196 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: franklin gothic medium;
+}
+
+header {
+	height: 500px;
+	background: url("tobyinberlin.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+	height: 80px;
+	background: url("tobyinberlin.jpg");
+	background-size:cover;
+	margin-bottom:0px;
+}
+
+
+.title{
+	text-align:center;
+	clear: both;
+	font-size: 60pt;
+	padding-top: 100px;
+	
+
+}
+
+.logo{
+	height:75px;
+	width:75px;
+	float: left;
+	margin: 0 0 0 30px;
+}
+
+#mirraMirraPic{
+	height:300px;
+}
+
+#logoPNG{
+	width: 100%;
+	height:100%;
+}
+
+#profilePicture{
+	height:200px;
+	display: block;
+    margin: auto;
+	padding: 40px;
+	border-radius: 50%;
+}
+
+h2{
+	color:white;
+	padding:10px;
+}
+
+
+nav{
+	float:right;
+	padding: 20px;
+}
+
+nav a{
+	display: inline-block;
+	margin-left: 20px;
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 15pt;
+	
+}
+
+nav a:hover{
+	color:black;
+}
+
+#aboutMe{
+	background-color: black;
+	text-align:center;
+
+}
+
+#aboutMe h1{
+	padding:40px;
+	font-size: 30pt;
+	color:white;
+}
+
+#aboutMe p{
+	padding:10px;
+}
+
+#projects{
+	background: url("graffiti.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	text-align: center;
+}
+
+#projects h1{
+	padding:40px;
+	font-size: 30pt;
+	color:white;
+}
+
+#projects p{
+	padding: 20px;
+}
+
+
+#contact{
+	background-color: white;
+	text-align:center;
+}
+
+#contact h1{
+	color:black;
+}
+
+#contact h2{
+	font-size:30pt;
+	color:black;
+}
+
+.linkedIcon
+{
+	width:100px;
+	padding-bottom:5px;
+}
+
+.gitIcon
+{
+	width:85px;
+	padding:10px;
+	
+}
+
+.twitIcon
+{
+	width:100px;
+	padding-bottom:5px;
+}
+
+p {
+  color: white;
+}
+
+h1{
+	color:white;
+	padding:10px;
+}
+
+h3{
+	color:white;
+	padding:10px;
+}
+
+.kicker{
+	text-align:center;
+	font-size: 30pt;
+}
+
+@media screen and (max-width: 522px){
+	
+	.logo{
+		float:right;
+	}
+	
+	.title{
+		font-size: 40pt;
+		padding-top: 50px;
+	}
+	
+	nav {
+		text-align:center;
+		float:none;
+	}
+	
+	nav a {
+		font-size:15px;
+		margin-left:0px;
+		margin-top:20px;
+
+	}
+	
+	.kicker{
+		font-size: 15px;
+	}
+}
