@@ -5,12 +5,13 @@
 }
 
 header {
-	height: 500px;
+	height: 100vh;
 	background: url("tobyinberlin.jpg");
 	background-size:cover;
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+	
 }
 
 footer {
@@ -86,13 +87,13 @@ nav a:hover{
 }
 
 #aboutMe h1{
-	padding:40px;
+	padding:50px;
 	font-size: 30pt;
 	color:white;
 }
 
 #aboutMe p{
-	padding:10px;
+	padding:10px 200px 10px 200px;
 }
 
 #projects{
@@ -111,7 +112,7 @@ nav a:hover{
 }
 
 #projects p{
-	padding: 20px;
+	padding:10px 200px 10px 200px;
 }
 
 
