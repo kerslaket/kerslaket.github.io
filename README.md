@@ -1,2 +1,2 @@
 # kerslaket.github.io
-Personal Portfolio WEbsite
+Personal Portfolio Website
