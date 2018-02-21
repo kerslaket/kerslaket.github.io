@@ -42,6 +42,10 @@ footer {
 	height:300px;
 }
 
+#sweatpic{
+	height:300px;
+}
+
 #logoPNG{
 	width: 100%;
 	height:100%;
@@ -93,7 +97,7 @@ nav a:hover{
 }
 
 #aboutMe p{
-	padding:10px 200px 10px 200px;
+	padding:10px 50px 10px 50px;
 }
 
 #projects{
@@ -112,7 +116,7 @@ nav a:hover{
 }
 
 #projects p{
-	padding:10px 200px 10px 200px;
+	padding:10px 50px 10px 50px;
 }
 
 
