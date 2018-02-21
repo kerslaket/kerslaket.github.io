@@ -1,6 +1,7 @@
 
-
- fadeInText();
+$(document).ready(function(){
+    fadeInText();
+});
 
 //function for fading in title text 
 function fadeInText(){
