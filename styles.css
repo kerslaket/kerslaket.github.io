@@ -27,6 +27,7 @@ footer {
 	clear: both;
 	font-size: 60pt;
 	padding-top: 100px;
+	display:none;
 	
 
 }
@@ -36,6 +37,7 @@ footer {
 	width:75px;
 	float: left;
 	margin: 0 0 0 30px;
+	display:none;
 }
 
 #mirraMirraPic{
@@ -68,6 +70,7 @@ h2{
 nav{
 	float:right;
 	padding: 20px;
+	display: none;
 }
 
 nav a{
@@ -170,6 +173,7 @@ h3{
 .kicker{
 	text-align:center;
 	font-size: 30pt;
+	display:none;
 }
 
 @media screen and (max-width: 522px){
