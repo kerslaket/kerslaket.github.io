@@ -1,99 +1,88 @@
-<!--Toby Kerslake Homepage/Landing Page-->
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
+    <head>
+		<title> Toby Kerslake</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	</head>
 	
-	<title>Toby Kerslake</title>
+    <body>
 	
-	<meta charset="utf-8" />
-	<link rel="icon" href="tklogo1.png">
-	<link rel="stylesheet" href="styles.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="scripts.js"></script>
+	<div id="siteWrapper">
 	
-
-</head>
-
-<body>
-
-	<header id="header">
-	
-		<a href="#header"><div class = "logo"><img id = "logoPNG" src = "tklogo1white.png"></div></a>
-		
-		<nav>
-			<a href="#aboutMe">ABOUT ME</a>
-			<a href="#projects">PROJECTS</a>
-			<a href="#contact">CONTACTS</a>
-		</nav>
-		<h1 class = "title">TOBY KERSLAKE</h1>
-		<h3 class = "kicker">Programmer // Musician // Nerd</h3>
-	</header>
-	
-	<section id = "aboutMe">
-		<h1>ABOUT ME</h1>
-		<div class = "profilePicture"><img id = "profilePicture" src = "tobyface.jpg"></div>
-		<p>A motivated, organised, hardworking Bsc (hons) Computer Science Undergraduate from the University of 
-		Lincoln with a great attitude towards working and learning in a team. Possesses an intimate understanding 
-		of programming fundamentals and has a passion for software development and web design. He has developed 
-		these skills through university projects as well as many projects he has undertook in his own time. 
-		Currently seeking placement opportunities for 2018-2019.</p>
-		<br><br>
-		<h1>KEY SKILLS AND INTERESTS</h1>
-		<p>5+ years experience programming with python, java, c# and c++</p><br>
-		<p>Familiarity with database design and implementation using sql</p><br>
-		<p>2 years experience using html, css, and java to create unique, responsive, well designed websites and web applications.</P><br>
-		<p>Understanding of the operations and use of git</p><br>
-		<p>Excels at communication and teamwork having led many group based projects at university and being on the committee for the University of Lincoln Music and Jamming Society.</p><br>
-		<p>Currently Treasurer of The University Of Lincoln Music and Jamming Society</p><br>
-		<p>Keen interest in music and music production having played guitar, bass, piano, and drums for over 10 years and having performed in many bands, orchestras, and choirs over the years.</p><br>
-
-		<br><br>
-
-	</section>
-	
-	<section id = "projects">
-		<h1>Projects</h1>
-		
-		<h2>MirraMirra</h2>
-		<div class = "mirraMirrPic"><img id = "mirraMirraPic" src = "mirraMirraLogo.jpg"></div>
-		<p>MirraMirra is a smart mirror application designed to run in a windows environment 
-		programmed using c# with the code available to download from my github. It runs on a 
-		display placed behind a two way mirror to present information to a user while they’re 
-		looking in a mirror. It uses a basic gui developed in windows forms and currently presents 
-		the time, date, weather, and a random compliment. Creating this program allowed me to learn
-		a lot about creating guis for c# and a lot about using and interacting with apis, as I used
-		the open weather map api to provide constantly updated weather information. It is still a
-		work in development and is constantly being updated by me.</p>
-		<br><br>
-		<h2>Sweat Gymnasium Database Management System</h3>
-		<div class = "sweatpic"><img id = "sweatpic" src = "sweatlogo.jpg"></div>
-		<p>As part of an A level assignment I created a completely bespoke piece of software to allow a local gym to easily manage a database of all of their clients, as well as workout routines and other important information that used to be stored on paper and through excel spreadsheets. This was programmed using python implementing qt4 libraries for the gui and an sqlite library for the database manipulation and management. This process took a long time spanning the course of several months and taught me not only a lot about programming large pieces of software, working with databases, and programming guis from the ground up, but also a lot about working with clients, making sure their needs are met, and adhering to the software development lifecycle, as well as getting a lot of experience using git. </p>
-		<br><br>
-		
-		
-	</section>
-	
-	<section id = "contact">
-		<h1>CONTACTS</h1>
-		<h2>kerslake.tobias@gmail.com</h2>
-		<div class = "row1">
-			<a href="https://github.com/kerslaket"target="_blank"><img class = "gitIcon" src = "githublogo.png"></a>
-			<a href="https://www.linkedin.com/in/toby-kerslake-498821151/"target="_blank"><img class = "linkedIcon" src = "linkedinlogo.png">
-			<a href="https://twitter.com/tobyjkerslake"target="_blank"><img class = "twitIcon" src = "twitterlogo.png">
+		<div id="navigationBar">
+			<img id="logo" src="tklogo.png">
+			<div id="navContent">
+				<h3>ABOUT ME</h3>
+				<h3>SKILLS</h3>
+				<h3>PROJECTS</h3>
+				<h3>CLIENTS</h3>
+				<h3>CONTACT</h3>
+			</div>
 		</div>
-		<br><br>
-	</section>
-	
-	<footer>
-		<a href="#header"><div class = "logo"><img id = "logoPNG" src = "tklogo1white.png"></div></a>
 		
-		<nav>
-			<a href="#aboutMe">ABOUT ME</a>
-			<a href="#projects">PROJECTS</a>
-			<a href="#contact">CONTACTS</a>
-		</nav>
-	</footer>
-	
-</body>
+		<div id="content">
+		
+			<div id="socialLinks">
+				<h3>Web Developer and Designer</h3>
+				
+			</div>
+			
+			<div id="aboutMe">
+			
+				<div id="tobyOpener">
+					<p><strong>Toby Kerslake is a web developer and computer scientist</strong></p>
+				</div>
+				
+				<br><br>
+				
+				<div id="aboutContent">
+					<p>Born in Cambridge currently living in 
+					Lincoln. He is a motivated, organised, hardworking Bsc (hons) Computer Science Undergraduate 
+					from the University of Lincoln with a great attitude towards working and learning in a team.
+					He Possesses an intimate understanding of programming fundamentals and has a passion for software 
+					development and web design. He has developed these skills through university projects as well 
+					as many projects he has undertook in his own time.
+					Born in Cambridge currently living in 
+					Lincoln. He is a motivated, organised, hardworking Bsc (hons) Computer Science Undergraduate 
+					from the University of Lincoln with a great attitude towards working and learning in a team.
+					He Possesses an intimate understanding of programming fundamentals and has a passion for software 
+					development and web design. He has developed these skills through university projects as well 
+					as many projects he has undertook in his own time.
+					Born in Cambridge currently living in 
+					Lincoln. He is a motivated, organised, hardworking Bsc (hons) Computer Science Undergraduate 
+					from the University of Lincoln with a great attitude towards working and learning in a team.
+					He Possesses an intimate understanding of programming fundamentals and has a passion for software 
+					development and web design. He has developed these skills through university projects as well 
+					as many projects he has undertook in his own time.
+					Born in Cambridge currently living in 
+					Lincoln. He is a motivated, organised, hardworking Bsc (hons) Computer Science Undergraduate 
+					from the University of Lincoln with a great attitude towards working and learning in a team.
+					He Possesses an intimate understanding of programming fundamentals and has a passion for software 
+					development and web design. He has developed these skills through university projects as well 
+					as many projects he has undertook in his own time.
+					Born in Cambridge currently living in 
+					Lincoln. He is a motivated, organised, hardworking Bsc (hons) Computer Science Undergraduate 
+					from the University of Lincoln with a great attitude towards working and learning in a team.
+					He Possesses an intimate understanding of programming fundamentals and has a passion for software 
+					development and web design. He has developed these skills through university projects as well 
+					as many projects he has undertook in his own time.
+					</p>
+					
+					
+					<img id="tobyinberlin" src="tobyinberlin.jpg">
+					
+				</div>
+				
+				
+			
+			
+			</div>
+			
+		</div>
+		
+	</div>
+
+    </body>
+</html>
+  

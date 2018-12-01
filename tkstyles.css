@@ -1,0 +1,244 @@
+html{
+	height:100%;
+	
+}
+
+body{
+	background: #7C77B9;
+	font-family: "sunflower";
+}
+
+.navbar-default .navbar-brand{
+	margin:0;
+	color: #7C77B9;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #7C77B9;
+}
+
+
+header{
+	background-image:url("https://images.unsplash.com/photo-1500989145603-8e7ef71d639e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96479273726f0c5c859499ea11593067&auto=format&fit=crop&w=2555&q=80");
+	height:100vh;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding-top:15%;
+	font-weight:700;
+	text-align:center;
+	color: #FFFFFB;
+	
+}
+
+header h1, header h2{
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+header a{
+		margin:20px;
+}
+
+
+h1, h2{
+	font-weight:700px;
+}
+
+.btn-default{
+	color:#7C77B9;
+}
+
+header h1{
+	font-size:5em;
+}
+
+.active a{
+	border-bottom: 3px solid #7C77B9;
+	background: #F8F8F8 !important;
+}
+
+.tobyPic{
+	width:20%;
+	border-radius:50%;
+}
+
+.projects{
+	padding: 60px;
+	text-align: center;
+	background: #fffffb;
+	color: #7C77B9;
+
+}
+
+.projects h2{
+	font-size: 4em;
+	padding: 20px;
+	
+}
+
+.aboutMe{
+	padding: 50px;
+	background-image:  url("tobylooksfine.jpg");
+	background-size: cover;
+	background-attachment:fixed;
+	color:white;
+}
+
+.aboutMe h2{
+	font-size: 4em;
+}
+
+.skills{
+	background: #fffffb;
+
+	padding: 50px;
+	text-align:center;
+	color: #7C77B9;
+	
+}
+
+.skills h2{
+	font-size: 4em;
+	
+}
+
+.skills span{
+	margin:20px;
+	font-size:4em;
+}
+
+.tools i{
+	font-size:4em;
+	padding: 20px;
+	color: grey;
+	
+}
+
+.tools i:hover{
+	color: #7C77B9;
+}
+
+.skills li{
+	list-style-type: none;
+}
+
+.skills ul{
+	padding: 0;
+}
+
+
+
+
+
+.clients{
+	background: #7C77B9;
+	height:100vh;
+	
+}
+
+.contact{
+	background: #7C77B9;;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #fffffb;
+	
+}
+
+.contact .tools i{
+	
+	color: #fffffb;
+	padding: 20px;
+}
+
+.contact .tools i:hover{
+	color:rgb(226, 218, 218);
+}
+
+.contact .tools{
+	text-align:center;
+}
+
+.contact h2{
+	text-align: center;
+	font-size: 4em;
+	
+}
+
+.box1{
+	
+	
+	background:url("code_otter_box.png");
+	height: 300px;
+	transition: all 0.3s ease-in-out;
+	background-size: 100%;
+	background-position:center;
+
+}
+
+.boxes{
+	text-align:center;
+	color: #fffffb;
+}
+
+.boxes h1{
+	padding-top:10%;
+	visibility: hidden;
+  	opacity: 0;
+}
+
+.boxes:hover {
+	background-size: 110%;
+}
+
+.boxes:hover h1{
+	visibility: visible;
+  	opacity: 1;
+}
+
+.box2{
+	background:url("GJHLogo.jpg");
+	transition: all 0.3s ease-in-out;
+	background-size: 100%;
+	background-position:center;
+	height: 300px;
+}
+
+.box3{
+	background:url("comingsoon.png");
+	height: 300px;
+	transition: all 0.3s ease-in-out;
+	background-size: 100%;
+	background-position:center;
+}
+
+.box4{
+	background:url("comingsoon.png");
+	height: 300px;
+	transition: all 0.3s ease-in-out;
+	background-size: 100%;
+	background-position:center;
+}
+
+.box5{
+	background:url("mirraMirraLogo.jpg");
+	height: 300px;
+	transition: all 0.3s ease-in-out;
+	background-size: 100%;
+	background-position:center;
+}
+
+.boxLink{
+	opacity: 0;
+	font-size:15em;
+}
+
+/* scrolling */
+
+
+a[ id= "projects" ]:target ~ .projects {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}

@@ -1,205 +1,101 @@
 *{
-	margin:0;
-	padding:0;
-	font-family: franklin gothic medium;
+	margin:0px;
+	padding:0px;
+	font-family: 'Nunan Gothic', sans-serif;
+	
 }
 
-header {
+
+#siteWrapper{
+	background:#FCF5EA;
 	height: 100vh;
-	background: url("tobyinberlin.jpg");
-	background-size:cover;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-	
 }
 
-footer {
-	height: 80px;
-	background: url("tobyinberlin.jpg");
-	background-size:cover;
-	margin-bottom:0px;
-}
-
-
-.title{
-	text-align:center;
-	clear: both;
-	font-size: 60pt;
-	padding-top: 100px;
-	display:none;
+#socialLinks{
+	background: #FCF5EA ;
+	height:80px;
 	
 
+} 
+
+#socialLinks h3{
+	float:left;
+	margin: 2px;
+	padding-top:55px;
 }
 
-.logo{
-	height:75px;
-	width:75px;
+#navigationBar{
+	background: #FCF5EA ;
 	float: left;
-	margin: 0 0 0 30px;
-	display:none;
-}
-
-#mirraMirraPic{
-	height:300px;
-}
-
-#sweatpic{
-	height:300px;
-}
-
-#logoPNG{
-	width: 100%;
 	height:100%;
+	padding-left: 5px;
+
+
 }
 
-#profilePicture{
-	height:200px;
-	display: block;
-    margin: auto;
-	padding: 40px;
-	border-radius: 50%;
+#navContent{
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-left: 25px;
 }
 
-h2{
-	color:white;
-	padding:10px;
+#navContent h3{
+	margin-bottom:5px;
+}
+
+#aboutContent{
+	column-count:2;
+	column-gap: 70px;
 }
 
 
-nav{
-	float:right;
-	padding: 20px;
-	display: none;
-}
+#content{
+	background: #FCF5EA ;
+	height: 100%;
 
-nav a{
-	display: inline-block;
-	margin-left: 20px;
-	color: white;
-	margin: 10px;
-	text-decoration: none;
-	font-size: 15pt;
-	
-}
-
-nav a:hover{
-	color:black;
 }
 
 #aboutMe{
-	background-color: black;
-	text-align:center;
-
+	background: #FCF5EA ;
+	margin-top:30px;
+	margin-right:90px;
 }
 
-#aboutMe h1{
-	padding:50px;
-	font-size: 30pt;
-	color:white;
+#logo{
+	margin:10px;
+	width: 80px;
+	margin-left:25px;
 }
 
-#aboutMe p{
-	padding:10px 50px 10px 50px;
-}
-
-#projects{
-	background: url("graffiti.jpg");
-	background-size:cover;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-	text-align: center;
-}
-
-#projects h1{
-	padding:40px;
-	font-size: 30pt;
-	color:white;
-}
-
-#projects p{
-	padding:10px 50px 10px 50px;
-}
+#tobyinberlin{
+	width:100%;
+	display: blok;
 
 
-#contact{
-	background-color: white;
-	text-align:center;
-}
-
-#contact h1{
-	color:black;
-}
-
-#contact h2{
-	font-size:30pt;
-	color:black;
-}
-
-.linkedIcon
-{
-	width:100px;
-	padding-bottom:5px;
-}
-
-.gitIcon
-{
-	width:85px;
-	padding:10px;
 	
 }
 
-.twitIcon
-{
-	width:100px;
-	padding-bottom:5px;
-}
-
-p {
-  color: white;
+#tobyOpener{
+	font-size: 3em;
+	border-bottom: 3px solid #B7D1DA;
 }
 
 h1{
-	color:white;
-	padding:10px;
+	color: #B7D1DA;
+}
+
+h2{
+	color: #B7D1DA;
+	
 }
 
 h3{
-	color:white;
-	padding:10px;
+	color: #B7D1DA;
+	
 }
 
-.kicker{
-	text-align:center;
-	font-size: 30pt;
-	display:none;
+p{
+	color: #95A3A4;
 }
 
-@media screen and (max-width: 522px){
-	
-	.logo{
-		float:right;
-	}
-	
-	.title{
-		font-size: 40pt;
-		padding-top: 50px;
-	}
-	
-	nav {
-		text-align:center;
-		float:none;
-	}
-	
-	nav a {
-		font-size:15px;
-		margin-left:0px;
-		margin-top:20px;
-
-	}
-	
-	.kicker{
-		font-size: 15px;
-	}
-}
+/*  #FCF5EA */
